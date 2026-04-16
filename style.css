@@ -1,0 +1,62 @@
+.upper {
+    color: rgb(240, 171, 101);
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    list-style: none;   
+    position:relative;
+    right: 40px; 
+}
+
+.circle{
+    background-color: rgb(3, 158, 185);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10%;
+    color: chartreuse;
+    font-size:45px;
+    margin:0;
+}
+.fotitogato{
+    width: 30%;
+    height: auto;
+    margin-top: 20px;
+    border: 2px solid #ccc;
+    border-radius: 70%;
+    border-color: rgb(240, 171, 101);
+    position:relative;
+    left: 400px; 
+}
+.letras_navbar{
+    font: underline 20 px bold arial;
+}
+.pablo_letra{
+    color: chartreuse;
+}
+.juntos1{
+    position:relative;
+    right:30px;
+    bottom: 250px;
+}
+.juntos2{
+    position:relative;
+    left:71px;
+    bottom: 297px;
+    color: rgb(220, 250, 114);
+}
+.juntos3{
+    position:relative;
+    right:30px;
+    bottom: 310px;
+}
+.juntos4{
+    position:relative;
+    right:30px;
+    bottom: 305px;
+    word-wrap: break-word
+}
