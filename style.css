@@ -1,15 +1,32 @@
-.upper {
-    color: rgb(240, 171, 101);
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    gap: 10px;
-    list-style: none;   
-    position:relative;
-    right: 40px; 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
 }
 
-.circle{
+
+.navbar {
+    background-color: #333;
+    padding: 20px 0;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.upper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    list-style: none;
+    padding: 0 20px;
+    margin: 0;
+    text-align: center; 
+}
+
+.circle {
     background-color: rgb(3, 158, 185);
     width: 70px;
     height: 70px;
@@ -17,47 +34,65 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 10%;
     color: chartreuse;
-    font-size:45px;
-    margin:0;
+    font-size: 45px;
 }
 
-.fotitogato{
-    width: 30%;
-    height: auto;
-    margin-top: 20px;
-    border: 2px solid #ccc;
-    border-radius: 70%;
-    border-color: rgb(240, 171, 101);
-    position:relative;
-    left: 400px; 
+.letras_navbar {
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(240, 171, 101);
+    cursor: pointer;
+    flex-grow: 1;
 }
-.letras_navbar{
-    font: underline 20 px bold arial;
+
+
+.juntos1, .juntos2, .juntos3, .juntos4 {
+    color: rgb(3, 158, 185);
 }
-.pablo_letra{
-    color: chartreuse;
+
+.juntos1 {
+    font-size: 28px;
 }
-.juntos1{
-    position:relative;
-    right:30px;
-    bottom: 250px;
+
+.juntos2 {
+    font-size: 36px;
+    font-weight: bold;
 }
-.juntos2{
-    position:relative;
-    left:71px;
-    bottom: 297px;
+
+.juntos3 {
+    font-size: 24px;
     color: rgb(220, 250, 114);
 }
-.juntos3{
-    position:relative;
-    right:30px;
-    bottom: 310px;
+
+.juntos4 {
+    font-size: 18px;
+    margin-top: 10px;
 }
-.juntos4{
-    position:relative;
-    right:30px;
-    bottom: 305px;
+
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    max-width: 100%;
+    box-sizing: border-box;
+    gap: 20px; 
+}
+
+.content {
+    flex: 1;
+    min-width: 200px;
+}
+
+.image {
+    width: 40%; 
+    min-width: 150px;
     
+}
+.fotitogato {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
 }
