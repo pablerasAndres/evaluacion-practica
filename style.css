@@ -4,8 +4,6 @@ body {
     padding: 0;
     background-color: #f4f4f4;
 }
-
-
 .navbar {
     background-color: #333;
     padding: 20px 0;
@@ -81,6 +79,7 @@ body {
     gap: 20px; 
 }
 
+
 .content {
     flex: 1;
     min-width: 200px;
@@ -91,6 +90,7 @@ body {
     min-width: 150px;
     
 }
+
 .fotitogato {
     width: 100%;
     height: auto;
