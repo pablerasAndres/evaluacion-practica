@@ -3,30 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portafolio</title>
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<link rel="stylesheet" href="style.css">
 <body>
-    <nav >
-        <ul class="upper">
-            <h1 class="circle">PS</h1>
-            <h3 >Pablo Salgado Hernandez</h3>
-    
-            <li  class="letras_navbar">Sobre mí</li>
-            <LI class="letras_navbar">habilidades</LI>
-            <li class="letras_navbar">Proyectos</li>
-            <li class="letras_navbar">Contacto</li>
-        </ul>
-    
-        <img class="fotitogato" src="img/gatofoto.jpg" alt="foto de un gato con traje super elegante">
-    
-        <ul>
-            <h2 class="juntos1">Hola, soy</h1>
-            <h2 class="juntos2">Pablo Salgado Hernandez</h1>
-            <h3 class="juntos3">estudiante de programacion web</h2>
-            <p class="juntos4">Hola, soy un estudiante de programación web apasionado </p>
-            <p class="juntos4">por crear experiencias digitales innovadoras.</p>
-        </ul>
-    </nav>
+    <div class="container">
+        <nav class="navbar">
+            <ul class="upper">
+                <li><h1 class="circle">PS</h1></li>
+                <li><h3>Pablo Salgado Hernandez</h3></li>
+                <li class="letras_navbar">Sobre mí</li>
+                <li class="letras_navbar">Habilidades</li>
+                <li class="letras_navbar">Proyectos</li>
+                <li class="letras_navbar">Contacto</li>
+            </ul>
+        </nav>
+
+        <div class="flex-container">
+            <div class="content">
+                <h2 class="juntos1">Hola, soy</h2>
+                <h2 class="juntos2">Pablo Salgado Hernandez</h2>
+                <h3 class="juntos3">Estudiante de programación web</h3>
+                <p class="juntos4">Hola, soy un estudiante de programación web apasionado por crear experiencias digitales innovadoras.</p>
+                <p class="juntos4">Mi objetivo es aprender, crear y compartir soluciones tecnológicas con un enfoque en el desarrollo web y la experiencia del usuario.</p>
+                <section class="sobre-mi">
+                    Sobre Mí
+                </section>
+                <p>Mi nombre es Pablo Salgado Hernandez y soy estudiante de desarrollo web. Desde que descubrí la programación, me apasiona crear sitios web que sean tanto funcionales como estéticamente agradables.</p>
+                <p>Actualmente me encuentro aprendiendo HTML5, CSS3 y JavaScript, con el objetivo de convertirme en un desarrollador front-end profesional. Me gusta trabajar en equipo y aprender nuevas tecnologías.</p>
+                <blockquote>«El único modo de hacer un gran trabajo es amar lo que haces.» — Steve Jobs</blockquote>
+            </div>
+            <div class="image">
+                <img class="fotitogato" src="img/gatofoto.jpg" alt="Foto de Pablo Salgado">
+            </div>
+        </div>
+
+        <section class="datos-personales">
+            <h3>Datos Personales</h3>
+            <ul>
+                <li><strong>Edad:</strong> 22 años</li>
+                <li><strong>Ciudad:</strong> Santiago, Chile</li>
+                <li><strong>Email:</strong> pablito@ejemplo.com</li>
+                <li><strong>Carrera:</strong> Programación Web</li>
+                <li><strong>Intereses:</strong> Diseño U/I, Gaming</li>
+            </ul>
+        </section>
+    </div>
 </body>
 </html>
