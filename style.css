@@ -50,17 +50,25 @@ body {
     background-color: white;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 .image {
     flex: 1;
     max-width: 400px;
     padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 .fotitogato {
     width: 100%;
+    max-width: 250px;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    object-fit: cover;
 }
 h2, h3 {
     color: #028090;
@@ -70,13 +78,21 @@ h2, h3 {
     font-style: italic;
     color: #64748B;
 }
+.habilidades {
+    margin-top: 50px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
 .habilidades table {
     width: 100%;
     margin-top: 20px;
     border-collapse: collapse;
     background-color: white;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 .habilidades td {
     padding: 10px;
@@ -91,25 +107,74 @@ h2, h3 {
 .html5 { width: 50%; background-color: #38BDF8; }
 .css3 { width: 65%; background-color: #38BDF8; }
 .python { width: 65%; background-color: #38BDF8; }
-
 ul {
     list-style: none;
     padding: 0;
 }
-
 ul li {
     font-size: 1.1rem;
     margin: 10px 0;
 }
-
 .ruta-aprendizaje {
     list-style-type: none;
     padding: 0;
     margin-top: 30px;
     font-size: 1.2rem;
 }
-
 .ruta-aprendizaje li {
     margin: 10px 0;
     color: #028090;
+}
+.proyectos {
+    margin-top: 50px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.proyectos h2 {
+    color: #028090;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+figure {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: linear-gradient(135deg, #E1EFFF, #F8FAFC);
+}
+figure:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+img {
+    width: 100%;
+    border-radius: 10px;
+    max-height: 200px;
+    object-fit: cover;
+}
+figcaption {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #028090;
+}
+a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #38BDF8;
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: underline;
 }
